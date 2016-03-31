@@ -2,7 +2,7 @@
 void main()
 {
     int a;
-    while(scanf("%d",&a)==1){
+    while( scanf("%d", &a) == 1){
         switch (a){
         case 61:
             printf("Brasilia\n");break;
@@ -23,7 +23,6 @@ void main()
         default :
             printf("DDD nao cadastrado\n");break;
         }
-
     }
 }
 
